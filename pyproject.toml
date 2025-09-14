@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=75", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "clean_html"
+version = "2025.9.14915"
+description = "from html import unescape from html.parser import HTMLParser   def strip_html(html: str) -> str:     \"\"\"     Strip HTML tags, returning onl…"
+readme = "README.md"
+requires-python = ">=3.9"
+authors = [
+  { name = "Eugene Evstafev", email = "hi@eugene.plus" },
+]
+license = { file = "LICENSE" }
+dependencies = [
+    "unescape"
+]
+
+[project.urls]
+Repository = "https://pypi.org/project/clean_html/"
